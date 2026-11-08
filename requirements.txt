@@ -1,0 +1,18 @@
+# Django + Supabase (PostgreSQL + Storage)
+
+# Framework
+Django>=6.1,<6.2
+
+# Database (Supabase PostgreSQL)
+psycopg2-binary>=2.9
+dj-database-url>=2.2
+
+# Environment variables (.env)
+python-dotenv>=1.0
+
+# File storage (Supabase Storage via S3-compatible endpoint)
+django-storages>=1.14
+boto3>=1.34
+
+# Optional: ImageField ব্যবহার করলে নিচের লাইনের # তুলে দিন
+# Pillow>=10.0
